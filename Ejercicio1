@@ -1,0 +1,19 @@
+#Alan Humberto Vega Millan 250169
+#Suma y promedio de tres numeros 
+
+Num1=float(input("Ingrese el primer numero"))
+Num2=float(input("Ingrese el segundo numero"))
+Num3=float(input("Ingrese el tercer numero"))
+
+if Num1>Num2:
+    if Num1>Num3:
+       Max=Num1 
+    else:
+        Max=Num3
+else:
+    if Num2>Num3:
+       Max=Num2
+    else:     
+       Max=Num3
+
+       print(f"El numero mayor es: {Max}") 

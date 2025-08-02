@@ -1,0 +1,11 @@
+#Alan Humberto Vega Millan 250169
+#Signos opuestos 
+
+num1=float(input("Ingrese el primer numero"))   
+num2=float(input("Ingrese el segundo numero"))  
+
+
+if num1>0 and num2>0 or num1<0 and num2<0:
+    print("No son opuestos ")   
+else:
+    print("signos opuestos")
